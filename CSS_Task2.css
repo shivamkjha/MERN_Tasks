@@ -1,0 +1,36 @@
+
+#ver {
+    border: 1px solid #0b0909;
+    list-style-type: none;
+    padding: 1px;
+    width: 200px;
+    background-color:skyblue;
+  }
+  
+  li{
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+  }
+  
+  /* Change the link color on hover */
+  li:hover {
+    background-color: orange;
+    color: white;
+  }
+
+#hor{
+    border: 1px solid #0b0909;
+    background-color:gainsboro;
+    float: left;
+
+}
+ .h {
+    display: inline-block;
+    padding: 8px,16px;
+}
+
+ .h:hover{
+    background-color: grey;
+    color: white;
+}
