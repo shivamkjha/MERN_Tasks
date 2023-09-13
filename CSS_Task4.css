@@ -1,0 +1,76 @@
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: transparent;
+    display: block;
+    transition: 0.2s;
+}
+.sidenav a.home{
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    background-color: green;
+    margin-bottom: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+}
+.sidenav a.about{
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    background-color: #1976D2;
+    margin-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+}
+.sidenav a.service{
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    background-color: orangered;
+    margin-bottom: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+}
+.sidenav a.contact {
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    background-color: grey;
+    margin-bottom: 10px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    width: 50px;
+}
+
+.sidenav a:hover {
+    color: #fff;
+    width: 250px;
+}
+
+.sidenav:hover {
+    width: 250px;
+}
+
+
+#main {
+    margin-top: 50px;
+    transition: margin-left .3s;
+    padding: 16px;
+    margin-left: 250px;
+}
